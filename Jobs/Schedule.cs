@@ -13,7 +13,7 @@ namespace DemoHangFire.Jobs
             this.serviceProvider = serviceProvider;
         }
 
-        public void ScheduleJob()
+        public void UpdateNameUser()
         {
             Console.WriteLine("Iniciando Schedule...");
 

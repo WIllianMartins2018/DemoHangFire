@@ -66,7 +66,7 @@ void ScheduleHangFire(Schedule schedule)
 {
     RecurringJob.AddOrUpdate(
         "UpdateNameUser",
-        () => schedule.ScheduleJob(),
+        () => schedule.UpdateNameUser(),
         Cron.Minutely,
         TimeZoneInfo.Local);
 }
